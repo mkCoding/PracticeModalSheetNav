@@ -76,7 +76,7 @@ fun MainScreen3() {
 fun BottomSheetContent(currentSheet: BottomSheetStateEnum, onNavigate: (BottomSheetStateEnum) -> Unit) {
     Column(
         modifier = Modifier
-            .height(200.dp)
+            .height(400.dp)
             .fillMaxWidth()
             .padding(30.dp)
     ) {
@@ -110,7 +110,6 @@ fun BottomSheetContent(currentSheet: BottomSheetStateEnum, onNavigate: (BottomSh
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-//    YourAppTheme {
-//        MainScreen()
-//    }
+        MainScreen3()
+
 }
